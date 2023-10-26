@@ -1,4 +1,4 @@
-# Sentiment Analysis with TextBlob, Newspaper3k, and NLTK
+# Sentiment Analysis with TextBlob, Newspaper, and NLTK
 
 This repository demonstrates how to perform sentiment analysis using the TextBlob library for both web articles and text files. Sentiment analysis is a technique that quantifies the sentiment or emotional tone in a piece of text, allowing you to determine whether the text expresses positive, negative, or neutral sentiment.
 
@@ -7,10 +7,10 @@ This repository demonstrates how to perform sentiment analysis using the TextBlo
 Before using this code, make sure you have the following Python packages installed:
 
 - `textblob`
-- `newspaper3k`
+- `newspaper3k` (or `newspaper` if former didnt work)
 - `nltk`
 
-You can install them using `pip`:
+You can install them using `pip` via command prompt:
 
 ```bash
 pip install textblob newspaper3k nltk
@@ -47,10 +47,13 @@ To analyze the sentiment of a text file, follow these steps:
 
 Feel free to use these scripts and adapt them to analyze sentiment in your own text data.
 
-For more information on the TextBlob, Newspaper3k, and NLTK libraries, please refer to their official documentation and resources.
+For more information on the TextBlob, Newspaper, and NLTK libraries, please refer to their official documentation and resources.
 
 ## CREDITS
-
+- [Various tools regarding Sentiment Analysis](https://colab.research.google.com/github/littlecolumns/ds4j-notebooks/blob/master/sentiment-analysis-is-bad/notebooks/Comparing%20sentiment%20analysis%20tools.ipynb#scrollTo=OhqWXdFb1cIL)
+  - A google collab-research website via .ipynb file where states an overview about sentiment analysis tools, emphasizes in choosing which sentiment analysis tool for a specific use case.
+- [Sentiment Analysis in Python](https://www.bairesdev.com/blog/best-python-sentiment-analysis-libraries/)
+  - Web article which contains several libraries
 - [Simple Sentiment Text Analysis in Python](https://www.youtube.com/watch?v=tXuvh5_Xyrw)
   - Basis for the tutorial
 - [ChatGPT](https://openai.com/chatgpt)
